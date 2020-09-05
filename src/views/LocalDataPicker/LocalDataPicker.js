@@ -64,7 +64,7 @@ class LocalDataPicker extends Component {
         return (
             <div className="data-picker-root" id={`${pickerID}-root`}>
                 <div className="form-file d-flex-box">
-                    <input type="file" id={`${pickerID}-input-file`} accept=".txt,.csv" className="form-file-input" ref={this.fileInput} onChange={this.handleFileChange} />
+                    <input type="file" id={`${pickerID}-input-file`} accept=".txt,.csv,.tsv" className="form-file-input" ref={this.fileInput} onChange={this.handleFileChange} />
                     <label className="form-file-label" htmlFor={`${pickerID}-input-file`}>
                         <span className="form-file-text">{fileName}</span>
                         <span className="form-file-button"><i className="far fa-folder-open"></i></span>
