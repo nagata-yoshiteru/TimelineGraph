@@ -1,0 +1,5 @@
+{
+    "name": "DataPicker",
+    "private": true,
+    "main": "./DataPicker.js"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "LocalDataPicker",
+    "private": true,
+    "main": "./LocalDataPicker.js"
+}
